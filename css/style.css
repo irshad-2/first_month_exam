@@ -254,3 +254,66 @@ header section.container div.middle ul li a.button {
   display: block;
   width: 100%;
 }
+#archive {
+  background-color: rgb(244, 245, 250);
+  padding: 90px 0px;
+}
+#archive section.container {
+  display: flex;
+  align-items: center;
+}
+#archive section.container div.left {
+}
+#archive section.container div.left h5 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#archive section.container div.left h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  width: 60%;
+}
+#archive section.container ul {
+  display: flex;
+  justify-content: space-between;
+}
+#archive section.container ul li {
+  display: flex;
+  justify-content: space-between;
+}
+#archive section.container ul li div.round {
+  width: 78px;
+  height: 74px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  font-family: "Gordita Bold";
+  justify-content: center;
+  position: relative;
+  right: -44px;
+}
+#archive section.container ul li div.round div.img {
+  width: 50%;
+}
+#archive section.container ul li div.round div.img img {
+  width: 100%;
+  display: block;
+  filter: invert(1);
+}
+#archive section.container ul li div.content {
+  width: 70%;
+}
+#archive section.container ul li div.content h2 {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#archive section.container ul li div.content p {
+  font-size: 15px;
+  color: rgb(127, 127, 127);
+  width: 85%;
+  font-weight: 600;
+}
