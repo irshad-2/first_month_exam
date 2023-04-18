@@ -400,3 +400,46 @@ header section.container div.middle ul li a.button {
   font-size: 25px;
   font-weight: bold;
 }
+.middle {
+  padding: 6% 0px;
+}
+.middle section.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle section.container div.left {
+  width: 50%;
+}
+.middle section.container div.left div.img {
+  width: 100%;
+}
+.middle section.container div.left div.img img {
+  display: block;
+  width: 100%;
+}
+.middle section.container div.right {
+  width: 40%;
+}
+.middle section.container div.right div.content {
+}
+.middle section.container div.right div.content h4 {
+  margin-bottom: 15px;
+  font-size: 25px;
+  color: rgb(255, 178, 105);
+  font-weight: 600;
+}
+.middle section.container div.right div.content h1 {
+  margin-bottom: 35px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+.middle section.container div.right div.content p {
+  margin-bottom: 30px;
+}
+.middle section.container div.right div.content small a {
+  color: rgb(76, 171, 248);
+  font-weight: 500;
+  font-size: 20px;
+}
