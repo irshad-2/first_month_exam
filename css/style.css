@@ -548,3 +548,101 @@ header section.container div.middle ul li a.button {
   padding: 31px;
   display: inline-block;
 }
+#support {
+  padding: 150px 0px;
+  height: 100vh;
+}
+#support section.container {
+  display: flex;
+  justify-content: space-between;
+}
+#support section.container div.left {
+  width: 50%;
+}
+#support section.container div.left h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  width: 75%;
+}
+#support section.container div.left p {
+  width: 80%;
+  margin: 40px 0px;
+  font-weight: 500;
+  font-size: 18px;
+}
+#support section.container div.left ul {
+}
+#support section.container div.left ul li {
+  display: flex;
+  align-items: center;
+}
+#support section.container div.left ul li:first-child {
+  margin-bottom: 20px;
+}
+#support section.container div.left ul li div.round {
+  background: rgb(77, 70, 199);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 4px;
+  margin-right: 10px;
+}
+#support section.container div.left ul li div.round div.arrow {
+  width: 70%;
+}
+#support section.container div.left ul li img {
+  display: block;
+  width: 100%;
+  filter: invert(1);
+}
+#support section.container div.left a.button {
+  color: rgb(255, 255, 255);
+  background: rgb(6, 15, 230);
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 40px;
+  font-size: 20px;
+}
+#support section.container div.right {
+  width: 60%;
+}
+#support section.container div.right ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#support section.container div.right ul li {
+  width: 48%;
+}
+#support section.container div.right ul li:first-child {
+  margin-bottom: 50px;
+}
+#support section.container div.right ul li:nth-child(2) {
+  margin-bottom: 50px;
+}
+#support section.container div.right ul li div.logo {
+  width: 18%;
+  margin-bottom: 20px;
+}
+#support section.container div.right ul li div.logo img {
+  display: block;
+  width: 100%;
+}
+#support section.container div.right ul li h3 {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#support section.container div.right ul li p {
+  width: 65%;
+  margin-bottom: 20px;
+}
+#support section.container div.right ul li a {
+  color: rgb(116, 72, 195);
+  font-size: 15px;
+  font-weight: 600;
+}
