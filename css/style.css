@@ -646,9 +646,8 @@ header section.container div.middle ul li a.button {
   font-size: 15px;
   font-weight: 600;
 }
-}
 #testimonial {
-  padding: 50px 0px;
+  padding: 150px 0px;
 }
 #testimonial div.top {
   text-align: center;
@@ -706,4 +705,70 @@ header section.container div.middle ul li a.button {
   width: 95%;
   font-size: 18px;
   font-weight: 300;
+}
+#subscribe {
+  width: 80%;
+  margin: 0px auto;
+  padding: 50px 0px;
+}
+#subscribe section.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 90px;
+  background: rgb(77, 83, 229);
+  align-items: center;
+  border-radius: 10px;
+}
+#subscribe section.container div.left {
+  text-align: center;
+}
+#subscribe section.container div.left h2 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#subscribe section.container div.left p {
+  color: rgb(255, 255, 255);
+  width: 70%;
+  margin: 0px auto;
+}
+#subscribe section.container div.right {
+  width: 55%;
+  position: relative;
+}
+#subscribe section.container div.right form {
+  display: flex;
+  align-items: center;
+}
+#subscribe section.container div.right form input {
+  width: 60%;
+  padding: 20px 15px;
+  font-size: 15px;
+  font-family: "Gordita light";
+  background: rgb(255, 255, 255);
+  border-radius: 15px 0px 0px 15px;
+  text-align: left;
+}
+#subscribe section.container div.right form button {
+  color: rgb(255, 255, 255);
+  background: rgb(47, 181, 82);
+  padding: 21px 18px;
+  border-radius: 0px 15px 15px 0px;
+  text-align: left;
+  width: 140px;
+}
+#subscribe section.container div.right div.box {
+  background: rgb(255, 255, 255);
+  padding: 7px;
+  width: 7%;
+  position: absolute;
+  border-radius: 10px;
+  right: 92px;
+  top: 9px;
+}
+#subscribe section.container div.right div.box div.arrow {
+}
+#subscribe section.container div.right div.box div.arrow img {
+  display: block;
+  width: 100%;
 }
