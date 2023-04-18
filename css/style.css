@@ -646,3 +646,64 @@ header section.container div.middle ul li a.button {
   font-size: 15px;
   font-weight: 600;
 }
+}
+#testimonial {
+  padding: 50px 0px;
+}
+#testimonial div.top {
+  text-align: center;
+  margin-bottom: 80px;
+}
+#testimonial div.top h2 {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#testimonial div.top p {
+  font-size: 17px;
+  font-weight: 300;
+  color: #1c1c1c;
+}
+#testimonial div.bottom {
+}
+#testimonial div.bottom ul.main {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+#testimonial div.bottom ul.main li {
+  width: 30%;
+  margin: 0px auto;
+}
+#testimonial div.bottom ul.main li div.avatar {
+  width: 18%;
+  margin: 0px auto;
+}
+#testimonial div.bottom ul.main li div.avatar img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+}
+#testimonial div.bottom ul.main li ul.star {
+  display: flex;
+  width: 30%;
+  margin: 20px auto 0px;
+}
+#testimonial div.bottom ul.main li ul.star li {
+}
+#testimonial div.bottom ul.main li ul.star li img {
+  display: block;
+  width: 70%;
+}
+#testimonial div.bottom ul.main li h3 {
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  font-weight: 600;
+}
+#testimonial div.bottom ul.main li p {
+  margin-top: 15px;
+  width: 95%;
+  font-size: 18px;
+  font-weight: 300;
+}
