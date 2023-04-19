@@ -1221,3 +1221,208 @@ footer section.bottom div.right p {
   }
 }
 /* media all and (max-width: 980px)  completed*/
+
+@media all and (max-width: 768px) {
+  header section.container div.middle ul li a {
+    font-size: 13px;
+  }
+  header section.container div.middle ul li a.button {
+    padding: 11px 14px;
+  }
+  #spotlight section.container div.left h6 {
+    margin-left: 14px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #spotlight section.container div.left div.img {
+    width: 20px;
+  }
+
+  #spotlight {
+    padding: 0px 0px;
+  }
+  header {
+    padding: 30px 0px 25px 0px;
+  }
+  #spotlight section.container div.right {
+    width: 47%;
+    height: 47%;
+    margin-top: 72px;
+  }
+  #spotlight section.container div.left h1 {
+    font-size: 26px;
+    width: 100%;
+  }
+  #spotlight section.container div.left form {
+    margin-top: 36px;
+  }
+  #spotlight section.container div.left form input {
+    height: 60px;
+  }
+  #spotlight section.container div.left form button {
+    height: 46px;
+    width: 122px;
+    left: 159px;
+    bottom: 7px;
+  }
+  #spotlight div.bottom div.p small {
+    font-size: 10px;
+  }
+  #spotlight div.bottom ul li {
+    width: 18%;
+  }
+  #archive {
+    padding: 70px 0px;
+  }
+  #archive section.container ul li div.round {
+    width: 45px;
+    height: 45px;
+  }
+  #archive section.container ul li div.content h2 {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  #archive section.container div.left h1 {
+    font-size: 19px;
+    width: 95%;
+  }
+  #archive section.container div.left h5 {
+    font-size: 12px;
+  }
+  #archive section.container ul li div.content p {
+    font-size: 14px;
+    color: rgb(127, 127, 127);
+    width: 118%;
+  }
+  .middle section.container div.right div.content h1 {
+    font-size: 26px;
+  }
+  #help section.container div.top h1 {
+    font-size: 36px;
+    width: 91%;
+    margin-bottom: 25px;
+  }
+  #help section.container div.top small {
+    font-size: 15px;
+  }
+  #help section.container div.bottom ul li {
+    width: 32%;
+    height: 285px;
+  }
+  #help section.container div.bottom ul li div.round {
+    width: 50px;
+    height: 50px;
+  }
+  #help section.container div.bottom ul li div.content h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  #help section.container div.bottom ul li div.content p {
+    font-size: 14px;
+    width: 75%;
+  }
+  #help section.container div.bottom div.button {
+    padding: 19px 20px;
+    margin-top: 25px;
+  }
+  #help section.container div.bottom div.button a.butoon {
+    font-size: 12px;
+  }
+  .middle {
+    padding: 14px 0px;
+  }
+  #price {
+    height: 573px;
+  }
+  #price section.container form {
+    border-radius: 10px;
+    width: 51%;
+    height: 41px;
+    bottom: -31px;
+    right: 157px;
+  }
+  #price section.container div.form input {
+    width: 69%;
+    padding: 12px;
+    font-size: 13px;
+    font-family: "Gordita Bold";
+  }
+  #price section.container div.form a.button {
+    border-radius: 8px;
+    height: 35px;
+    font-size: 12px;
+    width: 94px;
+    padding: 10px;
+  }
+  #price section.container div.box h2 {
+    font-size: 25px;
+    margin-bottom: 19px;
+  }
+  #price section.container div.box {
+    height: 341px;
+  }
+  #price section.container div.box small {
+    margin-right: 164px;
+    font-size: 23px;
+  }
+  #price section.container div.box span.round {
+    left: 82px;
+  }
+  #support section.container div.left h1 {
+    font-size: 24px;
+    width: 78%;
+  }
+  #support section.container div.left p {
+    width: 93%;
+    font-size: 13px;
+    margin: 27px 0px;
+  }
+  #support section.container div.right ul li:first-child {
+    margin-bottom: 49px;
+  }
+  #support section.container div.right ul li h3 {
+    font-size: 18px;
+    margin-bottom: 11px;
+  }
+  #support section.container div.right ul li p {
+    width: 87%;
+    margin-bottom: 12px;
+  }
+  #testimonial {
+    padding: 0px 0px;
+  }
+  #testimonial div.top h2 {
+    font-size: 39px;
+    margin-bottom: 14px;
+  }
+  #testimonial div.bottom ul.main li {
+    width: 33%;
+  }
+  #testimonial div.bottom ul.main li p {
+    margin-top: 15px;
+    width: 98%;
+    font-size: 11px;
+  }
+  #subscribe section.container {
+    padding: 37px 15px;
+  }
+  footer section.top div.one h1 {
+    flex-wrap: wrap;
+  }
+  footer section.top div.two h3 {
+    font-size: 16px;
+  }
+  footer section.top ul li a {
+    font-size: 15px;
+  }
+  footer section.top div.two ul li {
+    margin-right: 10px;
+  }
+  footer section.top div.one h1 a {
+    width: 30%;
+    margin-right: 5px;
+  }
+  footer section.top small {
+    display: none;
+  }
+}
