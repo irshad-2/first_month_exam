@@ -1426,3 +1426,314 @@ footer section.bottom div.right p {
     display: none;
   }
 }
+/* media all and (max-width: 768px)  completed*/
+
+@media all and (max-width: 640px) {
+  header section.container div.middle ul li a {
+    font-size: 10px;
+  }
+  #spotlight section.container div.left h1 span {
+    font-size: 40px;
+  }
+  #spotlight section.container div.left h1 {
+    font-size: 20px;
+  }
+  header section.container div.middle {
+    width: 73%;
+  }
+  #spotlight section.container div.left p {
+    width: 230px;
+    font-size: 12px;
+  }
+  #spotlight section.container div.left form input {
+    height: 45px;
+    border-radius: 10px;
+  }
+  #spotlight section.container div.left form button {
+    height: 44px;
+    width: 99px;
+    left: 139px;
+    bottom: 0px;
+    font-size: 15px;
+  }
+  #spotlight div.bottom div.p small {
+    display: none;
+  }
+  #spotlight div.bottom ul {
+    width: 100%;
+  }
+  #archive section.container {
+    flex-wrap: wrap;
+  }
+  #archive section.container div.left {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #archive section.container ul li {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+  }
+  #archive section.container ul li div.round {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  #archive section.container ul li div.content {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #archive section.container ul li div.content p {
+    width: 100%;
+    font-size: 13px;
+  }
+  #archive section.container ul li div.content h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  #help section.container div.top h1 {
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 18px;
+    line-height: 30px;
+  }
+  #help section.container div.bottom {
+    margin-top: 50px;
+  }
+  #help section.container div.bottom ul li {
+    width: 33%;
+    height: 220x;
+    padding: 4px;
+  }
+  #help section.container div.bottom ul li div.round div.img {
+    width: 50%;
+  }
+  #help section.container div.bottom ul li div.round {
+    width: 40px;
+    height: 40px;
+  }
+  #help section.container div.bottom ul li div.content h2 {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+  #help section.container div.bottom ul li div.content p {
+    font-size: 12px;
+    width: 100%;
+  }
+  #help section.container div.bottom div.button {
+    padding: 10px 15px;
+    margin-top: 5px;
+  }
+  .middle section.container {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .middle section.container div.left {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .middle section.container div.left div.img {
+    width: 70%;
+  }
+  .middle section.container div.right {
+    width: 85%;
+    text-align: center;
+  }
+  .middle section.container div.right div.content h4 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .middle section.container div.right div.content h1 {
+    margin-bottom: 14px;
+    font-size: 27px;
+  }
+  .middle section.container div.right div.content small a {
+    color: rgb(76, 171, 248);
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .middle section.container.end {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+  #price {
+    height: 500px;
+    margin-bottom: 50px;
+  }
+  #price section.container div.box {
+    height: 375px;
+    width: 80%;
+    padding: 15px 0 0 0;
+  }
+  #price section.container div.box h2 {
+    font-size: 17px;
+    margin: 15px 0;
+  }
+  #price section.container div.box h2.head {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  #price section.container div.box div.money_container div.money_div2 {
+    margin-left: 25px;
+  }
+
+  #price section.container div.box div.money_container div.money_div h3 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+
+  #price section.container div.box div.money_container div.money_div2 h3 {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  #price section.container div.box div.l_ine span.line {
+    margin-top: 30px;
+    width: 80%;
+    height: 20px;
+    border-radius: 25px;
+  }
+  #price section.container div.box span.round {
+    height: 25px;
+    width: 32px;
+    top: 28px;
+  }
+  #price section.container form {
+    bottom: 30px;
+    right: 110px;
+  }
+  #support section.container {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  #support section.container div.left {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #support section.container div.left h1 {
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #support {
+    padding: 0;
+    height: 85vh;
+  }
+  #support section.container div.left p {
+    width: 100%;
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  #support section.container div.left ul {
+    display: none;
+  }
+  #support section.container div.right {
+    width: 100%;
+  }
+  #support section.container div.right ul {
+    margin-top: 40px;
+  }
+  #support section.container div.right ul li {
+    width: 48%;
+  }
+  #support section.container div.right ul li div.logo {
+    margin: 10px auto;
+  }
+  #support section.container div.right ul li p {
+    width: 100%;
+  }
+  #testimonial div.top h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  #testimonial div.top p {
+    font-size: 12px;
+  }
+  #testimonial div.top {
+    margin-bottom: 40px;
+  }
+  #testimonial div.bottom ul.main {
+    flex-wrap: wrap;
+  }
+  #testimonial div.bottom ul.main li {
+    width: 46%;
+    margin-bottom: 20px;
+  }
+  #testimonial div.bottom ul.main {
+    flex-wrap: wrap;
+    margin-top: 52px;
+  }
+  #testimonial div.bottom ul.main li:last-child {
+    margin-bottom: 0;
+  }
+  #testimonial div.bottom ul.main li div.avatar {
+    width: 35%;
+  }
+  #testimonial div.bottom ul.main li ul.star {
+    width: 45%;
+  }
+  #subscribe section.container {
+    padding: 30px 15px;
+  }
+  #subscribe section.container div.left h2 {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+  #subscribe section.container div.left p {
+    font-size: 12px;
+  }
+  #subscribe section.container div.right {
+    width: 90%;
+  }
+  #subscribe section.container div.right form input {
+    padding: 13px 19px;
+  }
+  #subscribe section.container div.right form button {
+    padding: 11px 8px;
+    width: 199px;
+  }
+  #subscribe section.container div.right div.box {
+    top: 7px;
+  }
+  footer {
+    padding: 30px 30px;
+  }
+  footer section.top {
+    flex-wrap: wrap;
+  }
+  footer section.top div.one {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  footer section.top p {
+    width: 100%;
+    font-weight: lighter;
+    font-size: 15px;
+  }
+  footer section.top div.one h1 a {
+    width: 25%;
+    margin: 0 auto;
+  }
+  footer section.top div.ok {
+  }
+  footer section.top h3 {
+    font-size: 18px;
+  }
+  footer section.top ul li a {
+    font-size: 14px;
+  }
+  footer section.top ul li {
+    margin-bottom: 14px;
+  }
+  footer section.top ul li:last-child {
+    margin-bottom: 0;
+  }
+}
+/* media all and (max-width: 640px)  completed*/
