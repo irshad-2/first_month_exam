@@ -98,12 +98,17 @@ br.clear {
   src: local("Gordita Medium"), url("//font/Gordita Medium.woff") format("woff");
 }
 header {
-  padding: 30px 0px;
+  /* padding: 30px 0px; */
+  height: 100px;
+}
+header section.wrapper {
+  height: 100%;
 }
 header section.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 header section.container div.left {
 }
@@ -908,6 +913,51 @@ footer section.bottom div.right {
 footer section.bottom div.right p {
 }
 @media all and (max-width: 1380px) {
+  #spotlight section.container div.left form button {
+    border-radius: 11px;
+    height: 64px;
+    font-size: 20px;
+    width: 185px;
+    background-color: rgb(0, 33, 225);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    position: absolute;
+    left: 246px;
+    bottom: 7px;
+    cursor: pointer;
+  }
+  #archive section.container ul li div.round {
+    width: 75px;
+    height: 74px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-family: "Gordita Bold";
+    justify-content: center;
+    position: relative;
+    right: -30px;
+  }
+  #price section.container form {
+    border-radius: 20px;
+    width: 45%;
+    height: 100px;
+    box-shadow: rgb(182, 192, 255) 1px 1px 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -106px;
+    right: 34px;
+    background: rgb(255, 255, 255);
+  }
+  #subscribe section.container div.right div.box {
+    background: rgb(255, 255, 255);
+    padding: 7px;
+    width: 7%;
+    position: absolute;
+    border-radius: 10px;
+    right: 40px;
+    top: 14px;
+  }
   #testimonial {
     padding: 152px 0px;
   }
@@ -918,7 +968,51 @@ footer section.bottom div.right p {
     top: 14px;
   }
 }
+/* media all and (max-width: 1380px)  completed*/
 @media all and (max-width: 1280px) {
+  header section.container div.middle {
+    width: 71%;
+  }
+  #archive section.container ul li div.round {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-family: "Gordita Bold";
+    justify-content: center;
+    position: relative;
+    right: -9px;
+  }
+  #price section.container form {
+    border-radius: 20px;
+    width: 48%;
+    height: 100px;
+    box-shadow: rgb(182, 192, 255) 1px 1px 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -106px;
+    right: 34px;
+    background: rgb(255, 255, 255);
+  }
+  #subscribe section.container div.right form input {
+    width: 96%;
+    padding: 20px 15px;
+    font-size: 15px;
+    font-family: "Gordita light";
+    background: rgb(255, 255, 255);
+    border-radius: 15px 0px 0px 15px;
+    text-align: left;
+  }
+  #subscribe section.container div.right form button {
+    color: rgb(255, 255, 255);
+    background: rgb(47, 181, 82);
+    padding: 21px 2px;
+    border-radius: 0px 15px 15px 0px;
+    text-align: left;
+    width: 159px;
+  }
   #support {
     padding: 43px 0px;
     height: 100vh;
@@ -930,9 +1024,24 @@ footer section.bottom div.right p {
     width: 30%;
   }
 }
+/* media all and (max-width: 1280px)  completed*/
 @media all and (max-width: 1080px) {
   #spotlight section.container div.left form input {
     height: 72px;
+  }
+  #spotlight div.bottom div.p small {
+    border-top: 1px solid rgb(127, 127, 127);
+    font-weight: 300;
+    display: block;
+    font-size: 12px;
+  }
+  #archive section.container ul {
+    display: block;
+  }
+  #archive section.container ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
   }
   #archive {
     background-color: rgb(244, 245, 250);
@@ -951,10 +1060,164 @@ footer section.bottom div.right p {
     margin-bottom: 100px;
     align-items: center;
   }
+  #price section.container div.form a.button {
+    border-radius: 14px;
+    height: 82px;
+    font-size: 17px;
+    width: 176px;
+    background-color: rgb(0, 33, 225);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 31px;
+    display: inline-block;
+  }
+  #subscribe section.container div.right div.box {
+    padding: 4px;
+    width: 9%;
+    right: 11px;
+    top: 18px;
+  }
+  #subscribe section.container div.right form input {
+    width: 100%;
+    padding: 21px 5px;
+    font-size: 13px;
+    font-family: "Gordita light";
+    background: rgb(255, 255, 255);
+    border-radius: 15px 0px 0px 15px;
+    text-align: left;
+  }
+}
+/* media all and (max-width: 1080px)  completed*/
+@media all and (max-width: 980px) {
+  #support {
+    padding: 121px 0px;
+    height: 165vh;
+  }
+  header section.container div.middle {
+    width: 90%;
+  }
+  #spotlight section.container div.left h1 {
+    font-size: 37px;
+    font-weight: 900;
+    margin-top: 50px;
+    width: 93%;
+    color: rgb(0, 0, 0);
+  }
+  #spotlight section.container div.right {
+    width: 55%;
+  }
+  #spotlight div.bottom div.p small {
+    border-top: 1px solid rgb(127, 127, 127);
+    font-weight: 300;
+    display: block;
+    font-size: 9px;
+  }
+  #help section.container div.top h1 {
+    font-size: 47px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-bottom: 38px;
+    width: 65%;
+  }
+  #help section.container div.bottom ul li div.content h2 {
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  #help section.container div.bottom ul li div.content p {
+    font-size: 15px;
+    width: 65%;
+    margin: 0px auto;
+    color: rgb(127, 127, 127);
+    font-weight: 300;
+  }
+  #support section.container div.left h1 {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    width: 75%;
+  }
+  #subscribe section.container div.right form input {
+    width: 100%;
+    padding: 18px 5px;
+    font-size: 10px;
+    font-family: "Gordita light";
+    background: rgb(255, 255, 255);
+    border-radius: 15px 0px 0px 15px;
+    text-align: left;
+  }
+
+  #subscribe section.container div.right form button {
+    padding: 17px 0px;
+    width: 200px;
+  }
+  #subscribe section.container div.right div.box {
+    padding: 2px;
+    width: 10%;
+    right: 16px;
+    top: 13px;
+  }
+  #testimonial div.bottom ul.main li p {
+    margin-top: 15px;
+    width: 93%;
+    font-size: 13px;
+    font-weight: 300;
+  }
+  #support section.container {
+    flex-wrap: wrap;
+  }
+  #support section.container div.left {
+    width: 100%;
+    margin-bottom: 63px;
+  }
+  #spotlight section.container div.left form button {
+    height: 45px;
+    width: 123px;
+    left: 135px;
+    bottom: 15px;
+  }
+  #price {
+    height: 510px;
+  }
+  #price section.container form {
+    border-radius: 17px;
+    width: 59%;
+    height: 82px;
+    bottom: -102px;
+    right: 36px;
+  }
+  #price section.container div.form a.button {
+    border-radius: 10px;
+    height: 58px;
+    font-size: 18px;
+    width: 130px;
+    padding: 20px;
+  }
+  #archive section.container ul li div.content {
+    width: 72%;
+  }
+  #archive section.container div.left h1 {
+    font-size: 25px;
+    width: 76%;
+  }
   #subscribe section.container div.right div.box {
     padding: 4px;
     width: 9%;
     right: 10px;
-    top: 12px;
+    top: 15px;
+  }
+  #subscribe section.container div.right form button {
+    padding: 16px 3px;
+    width: 175px;
+  }
+  footer section.top div.one {
+    width: 30%;
+  }
+  footer section.top p {
+    color: #7d7d7d;
+    width: 88%;
+    font-size: 12px;
   }
 }
+/* media all and (max-width: 980px)  completed*/
