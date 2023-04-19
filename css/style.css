@@ -918,3 +918,15 @@ footer section.bottom div.right p {
     top: 14px;
   }
 }
+@media all and (max-width: 1280px) {
+  #support {
+    padding: 43px 0px;
+    height: 100vh;
+  }
+  #testimonial {
+    padding: 132px 0px;
+  }
+  footer section.top div.one {
+    width: 30%;
+  }
+}
