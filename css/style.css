@@ -1737,3 +1737,125 @@ footer section.bottom div.right p {
   }
 }
 /* media all and (max-width: 640px)  completed*/
+
+@media all and (max-width: 360px) {
+  header section.container div.middle {
+    display: none;
+  }
+  #spotlight section.container div.left div.icon_container {
+    display: none;
+  }
+  #spotlight section.container {
+    flex-direction: column-reverse;
+  }
+  #spotlight section.container div.right {
+    width: 100%;
+    margin-top: 0;
+  }
+  #spotlight section.container div.left {
+    width: 100%;
+  }
+  #spotlight section.container div.left p {
+    width: 288px;
+    font-size: 14px;
+  }
+  #archive section.container ul li div.content h2 {
+    font-size: 15px;
+  }
+  #archive section.container ul li div.content p {
+    width: 100%;
+    font-size: 10px;
+  }
+  #archive {
+    padding: 30px 0px;
+  }
+  #help section.container div.bottom {
+    margin-top: 15px;
+  }
+  #help section.container div.bottom ul {
+    flex-wrap: wrap;
+  }
+  #help section.container div.bottom ul li {
+    width: 45%;
+  }
+  #help section.container div.bottom ul li:last-child {
+    margin: 11px auto;
+  }
+  #help section.container div.bottom ul li div.content h2 {
+    font-size: 13px;
+  }
+  #help section.container div.bottom ul li {
+    height: 200px;
+  }
+  #help section.container div.bottom ul li div.content p {
+    font-size: 8px;
+  }
+  .middle section.container div.right div.content h1 {
+    font-size: 20px;
+  }
+  .middle section.container div.right div.content p {
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+  #price {
+    height: 280px;
+  }
+  #price section.container div.box small {
+    font-size: 13px;
+  }
+  #price section.container form {
+    display: none;
+  }
+  #price section.container div.box {
+    height: 304px;
+  }
+  #support section.container div.left h1 {
+    font-size: 15px;
+    margin-bottom: 11px;
+  }
+  #support section.container div.right ul li p {
+    font-size: 10px;
+  }
+  #support {
+    height: 74vh;
+  }
+  #testimonial div.top h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  #testimonial div.bottom ul.main li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #subscribe section.container div.right div.box {
+    top: 16px;
+    width: 12%;
+    right: 16px;
+  }
+  #subscribe section.container div.right form input {
+    display: none;
+  }
+  #subscribe section.container div.right form button {
+    padding: 17px 38px;
+    width: 136px;
+  }
+  #subscribe {
+    padding: 12px 0px;
+  }
+  footer section.top div.ok {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  footer section.top div.ok h3 {
+    font-size: 14px;
+  }
+  footer section.top div.ok a {
+    font-size: 12px;
+  }
+  footer section.bottom div.left p {
+    font-size: 12px;
+  }
+  footer section.bottom div.right p {
+    font-size: 12px;
+  }
+}
