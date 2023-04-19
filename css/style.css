@@ -191,7 +191,7 @@ header section.container div.middle ul li a.button {
   height: 80px;
   padding: 10px 10px 10px 32px;
   box-shadow: rgb(182, 192, 255) 1px 1px 10px;
-  font-weight: bold;
+  font-family: "Gordita Bold";
 }
 #spotlight section.container div.left form button {
   border-radius: 11px;
