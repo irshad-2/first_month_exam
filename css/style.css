@@ -930,3 +930,31 @@ footer section.bottom div.right p {
     width: 30%;
   }
 }
+@media all and (max-width: 1080px) {
+  #spotlight section.container div.left form input {
+    height: 72px;
+  }
+  #archive {
+    background-color: rgb(244, 245, 250);
+    padding: 81px 0px;
+  }
+  #spotlight section.container div.left form button {
+    height: 55px;
+    width: 125px;
+    left: 202px;
+    bottom: 9px;
+  }
+  #price {
+    background-color: rgb(242, 253, 254);
+    height: 582px;
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+  }
+  #subscribe section.container div.right div.box {
+    padding: 4px;
+    width: 9%;
+    right: 10px;
+    top: 12px;
+  }
+}
