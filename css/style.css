@@ -907,3 +907,14 @@ footer section.bottom div.right {
 
 footer section.bottom div.right p {
 }
+@media all and (max-width: 1380px) {
+  #testimonial {
+    padding: 152px 0px;
+  }
+  #subscribe section.container div.right div.box {
+    padding: 4px;
+    width: 7%;
+    right: 43px;
+    top: 14px;
+  }
+}
